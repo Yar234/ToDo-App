@@ -52,7 +52,3 @@ function newElement() {
     }
   }
 }
-
-// removeBtn.addEventListener('click', () => {
-//   liEl.parentNode.removeChild(liEl);
-// });
