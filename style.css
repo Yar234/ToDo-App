@@ -120,3 +120,40 @@ header {
   line-height: 30px;
   border-radius: 0 8px 8px 0;
 }
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 368px);
+    padding-right: calc(50% - 368px);
+  }
+}
+
+@media (max-width: 768px) {
+  .center {
+    padding-left: calc(50% - 260px);
+    padding-right: calc(50% - 260px);
+  }
+
+  header {
+    margin: 36px 0;
+    gap: 36px;
+  }
+
+  li {
+    padding: 12px 8px 12px 50px;
+  }
+
+  li.checked::before {
+    top: 15px;
+    left: 21px;
+    height: 21px;
+    width: 9px;
+  }
+}
+
+@media (max-width: 525px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
